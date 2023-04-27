@@ -1,9 +1,11 @@
 lockfileVersion: 5.4
 
 specifiers:
+  fuzzy-search: ^3.2.1
   spectaql: ^2.0.6
 
 dependencies:
+  fuzzy-search: 3.2.1
   spectaql: 2.0.6
 
 packages:
@@ -746,6 +748,10 @@ packages:
 
   /function-bind/1.1.1:
     resolution: {integrity: sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==}
+    dev: false
+
+  /fuzzy-search/3.2.1:
+    resolution: {integrity: sha512-vAcPiyomt1ioKAsAL2uxSABHJ4Ju/e4UeDM+g1OlR0vV4YhLGMNsdLNvZTpEDY4JCSt0E4hASCNM5t2ETtsbyg==}
     dev: false
 
   /gaze/1.1.3:
