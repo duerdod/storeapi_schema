@@ -1,8 +1,23 @@
 window.addEventListener('DOMContentLoaded', () => {
-  //   nav.innerHTML = `
-  // <input type="text" placeholder="Search for definition" id="search-definition" />
-  // ${nav.innerHTML}
-  // `;
+  nav.innerHTML = `
+  <input type="text" placeholder="Search for definition" id="search-definition" />
+  ${nav.innerHTML}
+  `;
+
+  const [, types] = nav.querySelectorAll('.nav-group .nav-group-items');
+
+  document
+    .getElementById('search-definition')
+    .addEventListener('keyup', (event) => {
+      let term = event.target.value;
+      [...types.children].forEach((item) => {
+        if (item.innerText.toLowerCase().includes(term.toLowerCase())) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
 });
 
 window.addEventListener('DOMContentLoaded', () => {

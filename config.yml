@@ -365,19 +365,18 @@ info:
   #
   ##############################################
 
-  description: A StoreAPI schema
-  version: 1.0.0
-  title: Norce StoreAPI Schema
+  description: ''
+  title: StoreAPI Schema
   # This is non-standard and optional. If omitted, will use "title". Also, only relevant
   # when building non-embedded.
-  x-htmlTitle: Norce StoreAPI Schema
-  license:
-    name: Apache 2.0
-    url: 'https://www.apache.org/licenses/LICENSE-2.0.html'
+  x-htmlTitle: StoreAPI Schema
+  contact:
+    url: http://www.norce.io
+    email: support@norce.io
 
   # If you really want to hide the "Documentation by" at the bottom of your output, you can do so here
   # Default: false
   x-hidePoweredBy: true
 
   # If not using introspection.url OR servers[], you need to provide x-url
-  x-url: https://storeapi.jetshop.io
+  x-url: https://stage.storeapi.jetshop.io
