@@ -39,5 +39,14 @@
 }
 
 #nav {
-  padding-top: 25px;
+  padding-top: 1rem !important;
+}
+
+#spectaql .doc-heading {
+  margin-top: 10px;
+}
+
+#spectaql #sidebar,
+#spectaql #docs {
+  padding-top: 0 !important;
 }
